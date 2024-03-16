@@ -850,7 +850,7 @@ header{
 @media screen and (max-width:1025px) and (min-width:765px) {
   .banner{
     margin-top: 0;
-      height: 100vh;
+      height: 500px;
       position: relative;
       background-color: white;
       display: flex;
@@ -919,7 +919,8 @@ header{
       .header-slider{/* Slider */
         position: absolute;
         left: 0;
-        height: 100vh;
+        top: 0;
+        height: fit-content;
         overflow: hidden;
         width: 100%;
         .section-1-2 .slick-slide {
@@ -947,6 +948,7 @@ header{
           -ms-touch-action: pan-y;
               touch-action: pan-y;
           -webkit-tap-highlight-color: transparent;
+          height: 100%;
       }
       
       .section-1-2 .slick-list
@@ -956,6 +958,7 @@ header{
           overflow: hidden;
           margin: 0;
           padding: 0;
+          height: 100%;
       }
       .section-1-2 .slick-list:focus
       {

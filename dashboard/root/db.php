@@ -1,8 +1,8 @@
 <?php
 $servername="localhost";
-$username="vishnuayurvedaco_db";
-$password="vishnuayurvedaco_db";
-$dbname="vishnuayurvedaco_db";
+$username="root";
+$password="";
+$dbname="vishnu";
 
 $mysqli= new mysqli($servername,$username,$password,$dbname);
 if($mysqli->connect_error){

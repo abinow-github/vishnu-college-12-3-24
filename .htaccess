@@ -49,6 +49,8 @@ RewriteRule ^Admissions/Course-Details$ Admissions/Course-Details.html [L]
 
 RewriteRule ^College/Faculty$ College/Faculty.html [L]
 RewriteRule ^College/Campus$ College/Campus.html [L]
+RewriteRule ^college/campus$ College/Campus.html [L]
+RewriteRule ^college/Campus$ College/Campus.html [L]
 RewriteRule ^College/Students-union$ College/The-Agartha-Students-Union.pdf [L]
 RewriteRule ^College/Teaching-Staff-Attendance$ College/Teaching-Staff-Attandance.html [L]
 RewriteRule ^College/Non-Teaching-Staff-Attendance$ College/Non-Teaching-Staff-Attandance.html [L]
