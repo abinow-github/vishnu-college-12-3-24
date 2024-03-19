@@ -537,6 +537,9 @@ footer{
       .card-title *{
         font-weight: bold;
       }
+      .card-title h5,.card-sub-title h6{
+        text-transform: uppercase;
+      }
 
       .other-details .p{
         font-size: 14px;
