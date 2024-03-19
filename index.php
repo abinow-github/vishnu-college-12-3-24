@@ -28,7 +28,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     
     <!-- css -->
-    <link rel="stylesheet" href="assets/css/style.css?v=6836187139">
+    <link rel="stylesheet" href="assets/css/style.css?v=16827hv">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -151,7 +151,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <div class="title"><h2>The body is the foremost tool for
                 manifesting our mind</h2></div>
                 <div class="sub-title"><p>Vishnu Ayurveda College is one among the best ayurveda colleges in India.</p></div>
-                <h5 class="hindi-text">आयुर्वेद: अमृतानाम् <br>
+                <h5 class="hindi-text hide_on_mobile hide_on_tab">आयुर्वेद: अमृतानाम् <br>
                   सर्वे सन्तु निरामया :
                   </h5>
                 <!-- <a href="tel:7994030042" class="banner-btn">Call Now</a> -->
@@ -198,6 +198,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
       
     </div>
+
+    <div class="sanskrith-md hide_on_lap text-center">
+    <h5 class="hindi-text"> आयुर्वेद: अमृतानाम् - सर्वे सन्तु निरामया : </h5>
+    </div>
 <style>
 @media screen and (min-width:992) {
   .hide_on_lap{
@@ -206,7 +210,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 }
 </style>
     <!-- section-1 about -->
-    <section class="section-1">
+    <section class="section-1 pt-0">
       <div class="container">
         <div class="row">
           <div class="col-md-6 d-flex align-items-center">

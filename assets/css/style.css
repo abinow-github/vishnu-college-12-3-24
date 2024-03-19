@@ -923,6 +923,10 @@ header{
         height: fit-content;
         overflow: hidden;
         width: 100%;
+        height: 500px;
+        .section-1-2.scr-anime,.news-img-div,.slick-track{
+          height: 100%;
+        }
         .section-1-2 .slick-slide {
           margin: 0px 20px;
       }
@@ -932,6 +936,8 @@ header{
       }
       .section-1-2 .slick-slide img {
           width: 100%;
+          height: 100%;
+          object-fit: cover;
       }
       
       .section-1-2 .slick-slider
@@ -1086,6 +1092,7 @@ header{
       align-items: center;
       text-align: center;
       align-items: flex-start;
+      overflow: hidden;
       .container{
         margin: auto;
       }
@@ -1094,7 +1101,7 @@ header{
         position: relative;
         .title h2{
           color: white;
-          font-size: 15px;
+          font-size: 21px;
           font-weight: bold;
         }
         .sub-title p{
@@ -1177,6 +1184,24 @@ header{
   }
 }
 /*........................................................ header END ................................................................*/
+
+
+.sanskrith-md.hide_on_lap .hindi-text{
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  width: fit-content;
+  border-radius: 10px;
+  line-height: 2;
+  font-size: 28px;
+  text-shadow: 0px 3px 3px black;
+  margin: auto;
+}
+@media screen and (max-width:765px) {
+  .sanskrith-md.hide_on_lap .hindi-text{
+    font-size: 22px;
+  }
+}
 
 /*............... section-1 ..........................*/
 .section-1{
