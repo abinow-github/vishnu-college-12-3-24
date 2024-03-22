@@ -136,6 +136,30 @@ $(document).ready(function(){
     });
   });
 
+//////youtube slider
+$(document).ready(function(){
+    $('.youtube-slider').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        responsive: [{
+            breakpoint: 992,
+            settings: {
+                slidesToShow: 2
+            }
+        }, {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 1
+            }
+        }]
+    });
+  });
+
   //////speciality slider
 $(document).ready(function(){
     $('.speciality-slider').slick({

@@ -422,6 +422,79 @@ include("dashboard/root/db.php");
     </section>
     <!-- section-2 facilities END -->
 
+    <!-- section-8  -->
+    <section class="section-8 pt-5">
+      <div class="container">
+        <div class="row">
+          <h2 class="h2 pb-5 anime">Watch Our Youtube</h2>
+        </div>
+        <div class="row card-sliderr">
+          <section class="section-1-2 scr-anime logo-sldr col-lg-12 mt-4">
+            <section class="youtube-slider slider">
+
+
+            <div class="slide">
+              <a href="https://youtu.be/ZgZ2jrutzcA?si=bJJy5BmuTkcEQAqX">
+                <div class="card">
+                  <img src="assets/img/youtube/yt-thumb-1.webp" class="w-100 h-100" alt="" srcset="">
+                  <div class="youtube-icon w-100 h-100 d-flex align-items-center justify-content-center"><i class="fa-brands fa-youtube"></i></div>
+              </div>
+              </a>
+            </div>
+
+            <div class="slide">
+              <a href="https://youtu.be/Jk2UVU5IyEM?si=dzg91-TV4Yz1vnzv">
+                <div class="card">
+                  <img src="assets/img/youtube/yt-thumb-2.webp" class="w-100 h-100" alt="" srcset="">
+                  <div class="youtube-icon w-100 h-100 d-flex align-items-center justify-content-center"><i class="fa-brands fa-youtube"></i></div>
+              </div>
+              </a>
+            </div>
+
+            <div class="slide">
+              <a href="https://youtu.be/S33lZefiC0s?si=s7jliu7cMUUV5XkK">
+                <div class="card">
+                  <img src="assets/img/youtube/yt-thumb-3.webp" class="w-100 h-100" alt="" srcset="">
+                  <div class="youtube-icon w-100 h-100 d-flex align-items-center justify-content-center"><i class="fa-brands fa-youtube"></i></div>
+              </div>
+              </a>
+            </div>
+
+            <div class="slide">
+              <a href="https://youtu.be/oishjyiCULU?si=EwiaLfJugb2czgcx">
+                <div class="card">
+                  <img src="assets/img/youtube/yt-thumb-4.webp" class="w-100 h-100" alt="" srcset="">
+                  <div class="youtube-icon w-100 h-100 d-flex align-items-center justify-content-center"><i class="fa-brands fa-youtube"></i></div>
+              </div>
+              </a>
+            </div>
+
+            <div class="slide">
+              <a href="https://youtu.be/aXnGduSmq20?si=vlzv8CKQGh46D2Ns">
+                <div class="card">
+                  <img src="assets/img/youtube/yt-thumb-5.webp" class="w-100 h-100" alt="" srcset="">
+                  <div class="youtube-icon w-100 h-100 d-flex align-items-center justify-content-center"><i class="fa-brands fa-youtube"></i></div>
+              </div>
+              </a>
+            </div>
+
+            <div class="slide">
+              <a href="https://youtu.be/tPX-n_VKm5M?si=3eNvoP1JVTQzN61X">
+                <div class="card">
+                  <img src="assets/img/youtube/yt-thumb-6.webp" class="w-100 h-100" alt="" srcset="">
+                  <div class="youtube-icon w-100 h-100 d-flex align-items-center justify-content-center"><i class="fa-brands fa-youtube"></i></div>
+              </div>
+              </a>
+            </div>
+
+            
+                 </section>
+        </section>
+        </div>
+      </div>
+    </section>
+    <!-- section-8  END -->
+
     <!-- section-3  -->
     <section class="section-3 pt-5">
       <div class="container">
