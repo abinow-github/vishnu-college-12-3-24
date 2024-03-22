@@ -74,5 +74,10 @@ RewriteRule ^Contact$ contact.html [L]
 RewriteRule ^academics/error$ 404.html [L]
 RewriteRule ^College/error$ 404.html [L]
 
+RewriteRule ^facility/laboratories$ facility.php [L]
+RewriteRule ^facility/library$ facility.php [L]
+RewriteRule ^facility/seminar-hall-and-auditorium$ facility.php [L]
+RewriteRule ^facility/classrooms$ facility.php [L]
+
 
 

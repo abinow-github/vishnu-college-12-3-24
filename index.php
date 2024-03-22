@@ -28,7 +28,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     
     <!-- css -->
-    <link rel="stylesheet" href="assets/css/style.css?v=16827hv">
+    <link rel="stylesheet" href="assets/css/style.css?v=67rtyi">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -121,7 +121,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <li><a href="College/Students-Attendance">Students Attendance</a></li>
                   <li><a href="College/Seminar-Attended">Seminar Attended</a></li>
                   <li><a href="College/Seminar-Conducted">Seminar Conducted</a></li>
-                  <li><a href="College/College-Council">College Council</a></li>
+                  <li><a href="College/College-Council" target="_blank">College Council</a></li>
               </ul>
           </li>
           <li class="dropdown">
@@ -342,7 +342,7 @@ include("dashboard/root/db.php");
         <div class="row">
 
           <div class="col-md-6 col-lg-4 mb-5">
-            <div class="card anime">
+            <a class="card anime" href="facility/laboratories">
               <div class="img-div">
                 <img src="assets/img/icons/experiment.png" alt="" srcset="">
               </div>
@@ -350,7 +350,8 @@ include("dashboard/root/db.php");
                 <div class="card-title">Laboratories</div>
                 <p class="p">We have fully automated haematology and bio chemistry lab with ultra modern investigations and analysers.</p>
               </div>
-            </div>
+              <div class="eye"><i class="fa-solid fa-eye"></i></div>
+          </a>
           </div>
 
           <div class="col-md-6 col-lg-4 mb-5">
@@ -366,7 +367,7 @@ include("dashboard/root/db.php");
           </div>
 
           <div class="col-md-6 col-lg-4 mb-5">
-            <div class="card anime">
+            <a class="card anime" href="facility/seminar-hall-and-auditorium">
               <div class="img-div">
                 <img src="assets/img/icons/video-presentation.png" alt="" srcset="">
               </div>
@@ -374,7 +375,8 @@ include("dashboard/root/db.php");
                 <div class="card-title">Seminar Hall & Auditorium</div>
                 <p class="p">Specious ventilated auditorium  and  Seminar hall for conference</p>
               </div>
-            </div>
+              <div class="eye"><i class="fa-solid fa-eye"></i></div>
+          </a>
           </div>
 
           <div class="col-md-6 col-lg-4 mb-5">
@@ -390,7 +392,7 @@ include("dashboard/root/db.php");
           </div>
 
           <div class="col-md-6 col-lg-4 mb-5">
-            <div class="card anime">
+            <a class="card anime" href="facility/library">
               <div class="img-div">
                 <img src="assets/img/icons/library.png" alt="" srcset="">
               </div>
@@ -398,11 +400,12 @@ include("dashboard/root/db.php");
                 <div class="card-title">Library</div>
                 <p class="p">The college library built in the memory of great malayalam poet and scholar sri. vallathol narayana menon is a fully digitalized library with rare collection of books and manuscripts enabling the students to get deep rooted knowledge of Ayurveda and allied sciences.</p>
               </div>
-            </div>
+              <div class="eye"><i class="fa-solid fa-eye"></i></div>
+          </a>
           </div>
 
           <div class="col-md-6 col-lg-4 mb-5">
-            <div class="card anime">
+            <a class="card anime" href="facility/classrooms">
               <div class="img-div">
                 <img src="assets/img/icons/knowledge.png" alt="" srcset="">
               </div>
@@ -410,7 +413,8 @@ include("dashboard/root/db.php");
                 <div class="card-title">Classrooms</div>
                 <p class="p">Spacious and adequately ventilated classrooms designed to enable the students get maximum focus and attention. smart classrooms that helps to ease the process of learning and better understanding</p>
               </div>
-            </div>
+              <div class="eye"><i class="fa-solid fa-eye"></i></div>
+          </a>
           </div>
 
         </div>
@@ -419,7 +423,7 @@ include("dashboard/root/db.php");
     <!-- section-2 facilities END -->
 
     <!-- section-3  -->
-    <section class="section-3">
+    <section class="section-3 pt-5">
       <div class="container">
         <div class="row">
           <h2 class="h2 pb-5 anime">Speciality Treatments</h2>
