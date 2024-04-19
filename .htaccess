@@ -23,7 +23,7 @@ RewriteRule ^academics/Student-List$ academics/Student-List.pdf [L]
 
 RewriteRule ^hospital/faculty$ hospital/faculty.html [L]
 RewriteRule ^hospital/departments$ hospital/departments.html [L]
-RewriteRule ^hospital/hospital-staff$ hospital/hospital-staff.html [L]
+RewriteRule ^hospital/hospital-staff$ hospital/Staflist.pdf [L]
 RewriteRule ^hospital/clinical-materials$ hospital/clinical-materials.html [L]
 RewriteRule ^hospital/ipd-attendance$ hospital/ipd-attandance.html [L]
 RewriteRule ^hospital/opd-attendance$ hospital/opd-attandance.html [L]
