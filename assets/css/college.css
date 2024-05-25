@@ -5,7 +5,7 @@
 /* ..................  common styles .............................. */
 .college-section{
     padding: 80px 0;
-    z-index: 1;
+    z-index: 5;
     position: relative;
 }
 
@@ -13,7 +13,7 @@
 /* ..................  Campus.html .............................. */
 .campus-section{
     padding: 80px 0;
-    z-index: 1;
+    z-index: 5;
     position: relative;
 }
 /* ......................  Campus.html END .............................. */
@@ -23,7 +23,7 @@
 .Teaching-Staff-Attandance{
     padding: 80px 0;
     position: relative;
-    z-index: 1;
+    z-index: 5;
 
     a{
         text-decoration: none;

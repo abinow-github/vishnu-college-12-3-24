@@ -7,8 +7,11 @@
 /* ............................... common styles ...................................... */
 .departments-section-1,.ipd-attandance-1,.departments-section-9{
   padding: 80px 0;
-  z-index: 1;
+  z-index: 5;
   position: relative;
+}
+footer{
+    z-index: 5;
 }
 .hr-div{
   z-index: 1;

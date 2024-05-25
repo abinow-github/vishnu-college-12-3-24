@@ -26,6 +26,7 @@ background: #4b9961;
   padding: 80px 0;
   z-index: 1;
   position: relative;
+  z-index: 5;
 }
 footer{
   width: 100%;
