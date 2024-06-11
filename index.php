@@ -101,7 +101,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <li><a href="Admissions/Admission-Notification-2023-2024">Admission Notification 2023-2024</a></li>
                   <li><a href="Admissions/Provisional-List-of-BAMS-MANAGEMENT-2023-2024">Provisional List of BAMS MANAGEMENT 2023-2024</a></li>
                   <li><a href="Admissions/BAMS-Management-Application-2023-24">BAMS Management Application 2023-24</a></li>
-                  <li><a href="Admissions/Prospectus-2023-2024">Prospectus 2023-2024</a></li>
+                  <li><a href="Admissions/Prospectus">Prospectus</a></li>
                   <li><a href="Admissions/Rank-List">Rank List</a></li>
                   <li><a href="Admissions/Accepted-Rejected-List">Accepted / Rejected List</a></li>
                   <li><a href="Admissions/Joining-Non-Joining-Report-Management-2023-2024">Joining/Non-Joining Report- Management 2023-2024</a></li>
@@ -646,6 +646,10 @@ include("dashboard/root/db.php");
             </div>
             <div class="name-div">
               <h4 class="h-clr text-center pt-3" style="color: #6e5555;">DR. P.RAMACHANDRAN NAIR <br>
+              <p class="details" style="font-size: 12px;">(MSAM PhD,
+Ex Assistant director
+ CENTRAL COUNCIL FOR RESEARCH IN AYURVEDIC SCIENCES   
+Ministry of AYUSH, Government of India)</p>
               <p class="p hide_on_lap hide_on_tab">Director</p></h4>
             </div>
           </div>

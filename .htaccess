@@ -37,6 +37,7 @@ RewriteRule ^Admissions/Admission-Notification-2023-2024$ Admissions/Admission-N
 RewriteRule ^Admissions/Provisional-List-of-BAMS-MANAGEMENT-2023-2024$ Admissions/Provisional-List-of-BAMS-MANAGEMENT-2023-2024.html [L]
 RewriteRule ^Admissions/BAMS-Management-Application-2023-24$ Admissions/apply-online.php [L]
 RewriteRule ^Admissions/Prospectus-2023-2024$ Admissions/1Prospectus-2023-2024.pdf [L]
+RewriteRule ^Admissions/Prospectus$ Admissions/Prospectus-2024-2025.pdf [L]
 RewriteRule ^Admissions/Rank-List$ Admissions/Rank-List.html [L]
 RewriteRule ^Admissions/Accepted-Rejected-List$ Admissions/Accepted-Rejected-List.html [L]
 RewriteRule ^Admissions/Joining-Non-Joining-Report-Management-2023-2024$ Admissions/Joining-Non-Joining-Report-Management-2023-2024.html [L]
