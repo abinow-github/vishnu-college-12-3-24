@@ -947,7 +947,7 @@
                 </div>
               </div>
 
-              <div class="card anime">
+              <!-- <div class="card anime">
                 <div class="img-part">
                   <div class="img-div">
                     <img src="../assets/img/college/faculty/lakshmi.jpg" width="100%" alt="">
@@ -964,6 +964,27 @@
                     <p class="p">Date of Birth: 20/04/1992</p>
                     <p class="p">Registration Number: 19213</p>
                     <p class="p">Joining-date: <span class="date">04/01/2024</span></p>
+                  </div>
+                </div>
+              </div>  -->
+
+              <div class="card anime">
+                <div class="img-part">
+                  <div class="img-div">
+                    <img src="../assets/img/college/faculty/anjupm.jpg" width="100%" alt="">
+                  </div>
+                  <img src="../assets/img/shape/green-line-art.png" class="pos-abs-img" alt="">
+                </div>
+                <div class="card-body">
+                  <div class="card-title text-center"><h5>Dr Anju P M </h5></div>
+                  <div class="card-sub-title text-center"><h6>Assistant professor</h6></div>
+                  <div class="other-details text-center">
+                    <p class="p">Department: SHALYA TANTRA</p>
+                    <p class="p">Experience: <span class="exp"></span></p>
+                    <p class="p">Teachers Code: NIL</p>
+                    <p class="p">Date of Birth: 17/02/1994</p>
+                    <p class="p">Registration Number: 20093</p>
+                    <p class="p">Joining-date: <span class="date">01/06/2024</span></p>
                   </div>
                 </div>
               </div>
@@ -1131,7 +1152,7 @@
                     <div class="other-details text-center">
                       <p class="p">Department: PRASOOTI TANTRA & STREE ROGA</p>
                       <p class="p">Experience:  <span class="exp"></span></p>
-                      <p class="p">Teachers Code: </p>
+                      <p class="p">Teachers Code: AYPS01660</p>
                       <p class="p">Date of Birth: 01/06/1966</p>
                       <p class="p">Registration Number: 5691</p>
                       <p class="p">Joining-date: 01/09/2023 <span class="date hide">10/10/2021</span></p>
@@ -1211,35 +1232,51 @@
 
 
 <script>
-  // Function to calculate remaining years and months
+  // Function to calculate remaining time
   function calculateRemainingTime(joiningDate) {
-      const currentDate = new Date();
-      const startDate = new Date(joiningDate);
-      
-      let years = currentDate.getUTCFullYear() - startDate.getUTCFullYear();
-      let months = currentDate.getUTCMonth() - startDate.getUTCMonth();
-      
-      if (months < 0) {
-          years--;
-          months += 12;
-      }
+    const currentDate = new Date();
+    const startDate = new Date(joiningDate);
+    
+    const diffTime = Math.abs(currentDate - startDate);
+    const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
 
-      return { years, months };
+    let years = currentDate.getUTCFullYear() - startDate.getUTCFullYear();
+    let months = currentDate.getUTCMonth() - startDate.getUTCMonth();
+    let days = currentDate.getUTCDate() - startDate.getUTCDate();
+
+    if (days < 0) {
+      months--;
+      days += new Date(startDate.getUTCFullYear(), startDate.getUTCMonth() + 1, 0).getUTCDate();
+    }
+
+    if (months < 0) {
+      years--;
+      months += 12;
+    }
+
+    return { years, months, days, diffDays };
   }
 
-  // Example usage with the provided date 15/07/2021
   let joiningDateElements = document.querySelectorAll('.date');
   joiningDateElements.forEach(joiningDateElement => {
-    let joiningDate = joiningDateElement.textContent;
+    let joiningDate = joiningDateElement.textContent.trim();
     let [day, month, year] = joiningDate.split('/');
     joiningDate = `${month}/${day}/${year}`;
 
     let remainingTime = calculateRemainingTime(joiningDate);
     
     let expElement = joiningDateElement.closest('.other-details').querySelector('.exp');
-    expElement.textContent = `${remainingTime.years} years, ${remainingTime.months} months`;
+    if (expElement) {
+      if (remainingTime.years > 0) {
+        expElement.textContent = `${remainingTime.years} years, ${remainingTime.months} months`;
+      } else if (remainingTime.months > 0) {
+        expElement.textContent = `${remainingTime.months} months`;
+      } else {
+        expElement.textContent = `${remainingTime.diffDays} days`;
+      }
+    }
 
-    console.log(`Remaining Years: ${remainingTime.years}, Remaining Months: ${remainingTime.months}`);
+    console.log(`Remaining Years: ${remainingTime.years}, Remaining Months: ${remainingTime.months}, Remaining Days: ${remainingTime.diffDays}`);
   });
 </script>
 

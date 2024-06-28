@@ -22,7 +22,7 @@ background: #4b996159;
 border-radius: 10px;
 background: #4b9961;
 }
-.section-1,.section-2,.section-3,.section-4,.section-5,.section-6,.section-7,.faculity-section-1,.news-section-1.gallery-section,.Activities-section-1{
+.section-1,.section-2,.section-3,.section-4,.section-5,.section-6,.section-7,.faculity-section-1,.news-section-1.gallery-section,.Activities-section-1,.blog-section{
   padding: 80px 0;
   z-index: 1;
   position: relative;
@@ -913,6 +913,98 @@ footer{
   }
 }
 /*........................................................ awards&achievments.html /ghallery END ................................................................*/
+
+
+/*........................................................ Blog.html /Blog ................................................................*/
+.blog-section{
+  z-index: 5;
+  position: relative;
+  .card{
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    .img-div{
+      height: 200px;
+      img{
+        object-fit: cover;
+      }
+    }
+    .card-title{
+      text-transform: capitalize;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      overflow: hidden;
+    }
+    .cnt{
+      font-size: 13px;
+      text-transform: lowercase;
+      color: gray;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 3;
+      overflow: hidden;
+    }
+    .card-footer{
+      position: relative;
+      background-color: transparent;
+      border: 0;
+    }
+    .profile{
+      font-weight: bold;
+      text-transform: uppercase;
+      height: 30px;
+      width: 30px;
+      border-radius: 50%;
+      background: linear-gradient(45deg, #0f5132, #198754);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 20px;
+    }
+    .name-date-div{
+      line-height: 1;
+      .date{
+        font-size: 12px;
+        color: gray;
+      }
+    }
+    .card-footer .blog-btn{
+      border: 1px solid #7070724f;
+      width: 100px;
+      border-bottom: 0;
+      border-right: 0;
+      background-color: white;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      border-radius: 10px 0 0 0;
+    }
+    .card-footer .blog-btn:hover{
+      background: linear-gradient(45deg, #2b8f60, #4bc88e);
+      color: white;
+      border: 0;
+    }
+  }
+}
+@media screen and (max-width:765px) {
+  .blog-section{
+    .row .col-md-6{
+      margin: auto;
+    }
+  }
+}
+/*........................................................ Blog.html /Blog END ................................................................*/
+
+
+
+/*........................................................ Blog-details.html /Blog-details ................................................................*/
+.blog-details-section{
+  z-index: 5;
+  position: relative;
+}
+/*........................................................ Blog-details.html /Blog-details END ................................................................*/
 
 
 

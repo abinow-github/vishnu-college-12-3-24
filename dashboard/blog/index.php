@@ -69,21 +69,21 @@ if (isset($_SESSION['upload_error'])) {
     <div class="side-menu">
         <ul>
             <li><a href="../gallery/">gallery</a></li>
-            <li class="active"><a href="" style="color:#fff">Announcements</a></li>
-            <li><a href="../blog/">Blog</a></li>
+            <li><a href="../news/">Announcements</a></li>
+            <li class="active"><a href="" style="color:#fff">Blog</a></li>
         </ul>
     </div>
     <div class="content">
-    <div class="container-fluid" style="background-color: #3dbb5f;color:white;padding:10px"><h4> Create News</h4></div>
+    <div class="container-fluid" style="background-color: #3dbb5f;color:white;padding:10px"><h4> Create Blog</h4></div>
     <div class="blog-content">
 				<div class="container">
 				 
          
-          <form action="us_add_back.php" method="post" enctype="multipart/form-data" id="formID" class="formular">
+          <form action="add_back.php" method="post" enctype="multipart/form-data" id="formID" class="formular">
 			
 				<!--............blog...............-->
 
-        <div style="box-shadow: inset 0px 0px 3px rgb(60 64 67 / 40%);background: #f3f3f3; border-radius:10px; padding: 10px;padding:20px;    width: 775px;" id="page-wrapper">
+        <div style="box-shadow: inset 0px 0px 3px rgb(60 64 67 / 40%);background: #f3f3f3; border-radius:10px; padding: 10px;padding:20px;    width: 100%;" id="page-wrapper">
           <div class="container-fluid">
               <div class="row">
                 <div class="col-md-6">
@@ -93,51 +93,74 @@ if (isset($_SESSION['upload_error'])) {
 
               <div class="form-group">
               
-              <label>News Images (maximum file size 1mb)</label><br>
-              <input type="file" name="images[]" class="validate[required]" multiple>
+              <label>News Image* (maximum file size 1mb)</label><br>
+              <input type="file" name="images[]" class="validate[required]">
                                       </div>
               
           </div>
           <br><br>
           <br>
          <div class="form-group">
-         <label>News title</label>
+              <label>Blog title *</label>
               <input class="form-control" type="text" name="title">
-                </div><br><br><br>
+         </div><br><br><br>
+
+         <div class="form-group">
+              <label>Author</label>
+              <input class="form-control" type="text" name="author" value="vishnuayurveda">
+         </div><br><br><br>
 
          <div class="form-group">
          <label>Date</label>
-         <input class="form-control" type="date" name="date" value="<?php echo date('Y-m-d'); ?>">
+         <input style="width: fit-content;" class="form-control" type="date" name="date" value="<?php echo date('Y-m-d'); ?>">
                 </div><br><br><br>
 
          <div class="form-group">
-         <label>News Content</label>
+         <label>Blog Content</label>
          <textarea name="content" id="editor" ></textarea>
                 </div>
 
                   </div>
-         
-            
-                  
+              </div>
+          </div>
+
+ </div>
+        <!-- meta -->
+         <div class="container">
+          <div style="box-shadow: inset 0px 0px 3px rgb(60 64 67 / 40%);background: #f3f3f3; border-radius:10px; padding: 10px;padding:20px;    width: 100%;" id="page-wrapper">
+          <div class="container-fluid">
+              <div class="row">
+                
+         <div class="form-group">
+              <label>URL</label>
+              <input class="form-control" type="text" name="url">
+         </div><br><br><br>
+                
+         <div class="form-group">
+              <label>meta title</label>
+              <input class="form-control" type="text" name="meta_title">
+         </div><br><br><br>
+
+         <div class="form-group">
+              <label>meta description</label>
+              <input class="form-control" type="text" name="meta_description">
+         </div><br><br><br>
 
               </div>
-            
-      
+             </div>
 
-          </div>
-    
+         </div>
+        </div>
 
-</div>
+       
 				  
 				 
 				 <!--...............blog..............-->
          <div class="container">
-        
-         <div style="text-align: center;">
-         
+                <div style="text-align: center;">
                 <button type="submit" class="btn btn-default" style="background-color: var(--red);color:white">Submit</button>
                 </div>
-                </div>
+         </div>
                   <script>
     ClassicEditor
         .create(document.querySelector('#editor'))
@@ -149,7 +172,7 @@ if (isset($_SESSION['upload_error'])) {
 </form>
 
 <div class="w-100">
-<?php include("us_select.php"); ?>
+<?php include("select.php"); ?>
         </div>
 				</div>
 

@@ -68,6 +68,8 @@ RewriteRule ^News/announcement$ News/announcement.php [L]
 RewriteRule ^News/Awards_&_Achievements$ News/Awards_&_Achievements.php [L]
 RewriteRule ^News/details$ News/news.php [L]
 RewriteRule ^News/Activities$ News/Activities.html [L]
+RewriteRule ^News/blog$ News/blog.php [L]
+RewriteRule ^News/blog/([^/]+)/? News/blog-details.php?url=$1 [L,QSA]
 
 RewriteRule ^Contact$ contact.html [L]
 

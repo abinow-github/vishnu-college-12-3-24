@@ -130,6 +130,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <li><a href="News/announcement">announcement</a></li>
                   <li><a href="News/Awards_&_Achievements">awards & Achievements</a></li>
                   <li><a href="News/Activities">Activities</a></li>
+                  <li><a href="News/blog">Blog</a></li>
               </ul>
           </li>
           <li><a href="Contact">Contact</a></li>

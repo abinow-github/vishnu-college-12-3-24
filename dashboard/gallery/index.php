@@ -73,6 +73,7 @@ if (isset($_SESSION['upload_error'])) {
         <ul>
             <li class="active"><a href="" style="color:#fff">gallery</a></li>
             <li><a href="../news/">Announcements</a></li>
+            <li><a href="../blog/">Blog</a></li>
         </ul>
     </div>
     <div class="content">
